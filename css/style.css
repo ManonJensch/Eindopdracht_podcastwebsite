@@ -1,0 +1,222 @@
+/*algemeen*/
+*{
+    box-sizing: border-box;
+}
+
+header, nav {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    gap: 1.5em;
+}
+
+header ul{
+    font-family: "Roboto condensed";
+    color: #D268A5;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 4em;
+    list-style-type: none;
+}
+
+nav a:hover{
+    background-color: pink;
+    color: black;
+    font-weight:1000;
+}
+
+nav a:focus{
+    background-color: pink;
+    color: black;
+    font-weight:1000;
+}
+
+nav a{
+    display: inline-block;
+    border-radius: 5em;
+    border: 0.2em solid #DE87A4;
+    padding: 1em;
+    margin: 1em;
+    margin-bottom: 2em;
+    text-decoration: none;
+    transition: all 450ms ease-in-out
+}
+
+
+.favorieten_nav_menu{
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: none;
+    border: none;
+}
+
+.logo {
+    width: 20em;
+}
+
+nav img{
+    width: 5em;
+
+}
+
+/*body*/
+body {
+    background-color: #FCDDEF;
+    margin: 2em;
+}
+
+.witte_achtergrond{
+    display: flex;
+    background-color: white;
+    border-radius: 3em;
+    padding: 2em;
+    margin-bottom: 2em;
+    margin-top: 2em;
+}
+
+
+/*main*/
+.h1_met_slogan{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+iframe{
+    width: 50vw;
+    height: 50vh;
+}
+
+.merch_favorieten_pagina{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4em;
+}
+
+main ul{
+    list-style-type: none;
+}
+
+main section{
+    display: flex;
+}
+
+main img{
+    width: 20em;
+}
+
+p{
+    font-family: "Roboto", arial;
+}
+
+h1{
+    font-family: "Roboto condensed";
+    font-weight: 1000;
+    color:#4A4A4A;
+    font-size: 4em;
+}
+
+h2{
+    font-family: "Roboto condensed";
+    font-weight: 1000;
+    color:#4A4A4A;
+    font-size: 2em;
+}
+
+h3{
+    font-family: "Roboto condensed";
+    font-weight: 1000;
+    color:#4A4A4A;
+}
+
+h4{
+    font-family: "Roboto condensed";
+    font-weight: 1000;
+    color:#C6C5C5;
+}
+
+.winkelmandenfavorietenhartje{
+    width:5em;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: right;
+}
+
+.artikel_home{
+    align-items: center;
+    gap: 2em;
+    display: flex;
+    background-color: white;
+    border-radius: 3em;
+    padding: 2em;
+    margin-bottom: 2em;
+    margin-top: 2em;
+}
+
+/*over ons*/
+.foto_over_ons{
+    padding-right: 2em;
+}
+
+
+
+/*afleveringen pagina*/
+.afleveringenpagina_playbutton{
+    width: 35em;
+}
+
+
+
+/*merchpagina*/
+
+.witte_achtergrond_merch{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    column-count: 2;
+    background-color: white;
+    border-radius: 3em;
+    padding: 2em;
+    margin-bottom: 2em;
+}
+
+
+
+/*footer*/
+footer{
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 2em;
+    justify-content: space-between;
+}
+
+footer ul{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    list-style-type: none;
+}
+
+footer img{
+    width: 2em;
+}
+
+.copyright li{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    font-family: "Roboto condensed";
+    color:#C6C5C5;
+    padding: 0.2em;
+}
+
+.copyright a:hover{
+    color: black;
+    font-weight:1000;
+}
